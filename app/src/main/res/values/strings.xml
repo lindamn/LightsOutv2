@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">penaranda_exer5_LightsOutv2</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="start">Start</string>
+    <string name="move_count">Move Count:</string>
+    <string name="no_of_moves">0</string>
+    <string name="reset">Reset</string>
+    <string name="congratulations">Congratulations!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

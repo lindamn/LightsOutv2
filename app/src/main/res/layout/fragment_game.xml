@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".GameFragment">
+
+        <TextView
+            android:id="@+id/light44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/resetButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light43"
+            app:layout_constraintTop_toBottomOf="@+id/light34" />
+
+        <TextView
+            android:id="@+id/light43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/resetButton"
+            app:layout_constraintEnd_toStartOf="@+id/light44"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light42"
+            app:layout_constraintTop_toBottomOf="@+id/light33" />
+
+        <TextView
+            android:id="@+id/light42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/resetButton"
+            app:layout_constraintEnd_toStartOf="@+id/light43"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light41"
+            app:layout_constraintTop_toBottomOf="@+id/light32" />
+
+        <TextView
+            android:id="@+id/light41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/resetButton"
+            app:layout_constraintEnd_toStartOf="@+id/light42"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light40"
+            app:layout_constraintTop_toBottomOf="@+id/light31" />
+
+        <TextView
+            android:id="@+id/light40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/resetButton"
+            app:layout_constraintEnd_toStartOf="@+id/light41"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/light30" />
+
+        <TextView
+            android:id="@+id/light34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light44"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light33"
+            app:layout_constraintTop_toBottomOf="@+id/light24" />
+
+        <TextView
+            android:id="@+id/light33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light43"
+            app:layout_constraintEnd_toStartOf="@+id/light34"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light32"
+            app:layout_constraintTop_toBottomOf="@+id/light23" />
+
+        <TextView
+            android:id="@+id/light32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light42"
+            app:layout_constraintEnd_toStartOf="@+id/light33"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light31"
+            app:layout_constraintTop_toBottomOf="@+id/light22" />
+
+        <TextView
+            android:id="@+id/light31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light41"
+            app:layout_constraintEnd_toStartOf="@+id/light32"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light30"
+            app:layout_constraintTop_toBottomOf="@+id/light21" />
+
+        <TextView
+            android:id="@+id/light30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light40"
+            app:layout_constraintEnd_toStartOf="@+id/light31"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/light20" />
+
+        <TextView
+            android:id="@+id/light24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light34"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light23"
+            app:layout_constraintTop_toBottomOf="@+id/light14" />
+
+        <TextView
+            android:id="@+id/light23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light33"
+            app:layout_constraintEnd_toStartOf="@+id/light24"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light22"
+            app:layout_constraintTop_toBottomOf="@+id/light13" />
+
+        <TextView
+            android:id="@+id/light22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light32"
+            app:layout_constraintEnd_toStartOf="@+id/light23"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light21"
+            app:layout_constraintTop_toBottomOf="@+id/light12" />
+
+        <TextView
+            android:id="@+id/light21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light31"
+            app:layout_constraintEnd_toStartOf="@+id/light22"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light20"
+            app:layout_constraintTop_toBottomOf="@+id/light11" />
+
+        <TextView
+            android:id="@+id/light20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light30"
+            app:layout_constraintEnd_toStartOf="@+id/light21"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/light10" />
+
+        <TextView
+            android:id="@+id/light14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light13"
+            app:layout_constraintTop_toBottomOf="@+id/light04" />
+
+        <TextView
+            android:id="@+id/light13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light23"
+            app:layout_constraintEnd_toStartOf="@+id/light14"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light12"
+            app:layout_constraintTop_toBottomOf="@+id/light03" />
+
+        <TextView
+            android:id="@+id/light12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light22"
+            app:layout_constraintEnd_toStartOf="@+id/light13"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light11"
+            app:layout_constraintTop_toBottomOf="@+id/light02" />
+
+        <TextView
+            android:id="@+id/light11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light21"
+            app:layout_constraintEnd_toStartOf="@+id/light12"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light10"
+            app:layout_constraintTop_toBottomOf="@+id/light01" />
+
+        <TextView
+            android:id="@+id/light10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light20"
+            app:layout_constraintEnd_toStartOf="@+id/light11"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/light00" />
+
+        <TextView
+            android:id="@+id/light04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light03"
+            app:layout_constraintTop_toBottomOf="@+id/moveCount" />
+
+        <TextView
+            android:id="@+id/light03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light13"
+            app:layout_constraintEnd_toStartOf="@+id/light04"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light02"
+            app:layout_constraintTop_toBottomOf="@+id/moveCount" />
+
+        <TextView
+            android:id="@+id/light02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light12"
+            app:layout_constraintEnd_toStartOf="@+id/light03"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light01"
+            app:layout_constraintTop_toBottomOf="@+id/moveCount" />
+
+        <TextView
+            android:id="@+id/light01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light11"
+            app:layout_constraintEnd_toStartOf="@+id/light02"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/light00"
+            app:layout_constraintTop_toBottomOf="@+id/moveCount" />
+
+        <TextView
+            android:id="@+id/light00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="24dp"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toTopOf="@+id/light10"
+            app:layout_constraintEnd_toStartOf="@+id/light01"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/moveCount" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@android:style/Widget.DeviceDefault.Light.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:typeface="monospace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/moveCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/move_count"
+            android:textSize="24sp"
+            android:typeface="monospace"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        <TextView
+            android:id="@+id/noOfMoves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/no_of_moves"
+            android:textSize="24sp"
+            android:typeface="monospace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/moveCount"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp"
+            android:text="@string/reset"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.513"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
