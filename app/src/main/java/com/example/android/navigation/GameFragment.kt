@@ -85,6 +85,8 @@ class GameFragment : Fragment() {
         lights[4][3] = light24
         lights[4][4] = light25
 
+        //click listener for reset button
+
         binding.resetButton.setOnClickListener{
 
             for(i in 0..4){
@@ -97,6 +99,8 @@ class GameFragment : Fragment() {
             binding.noOfMoves.text = temp.toString()
 
         }
+
+        //sets click listeners for the lights
 
         val clickableViews: List<TextView> =
             listOf(light1, light2, light3, light4, light5,
